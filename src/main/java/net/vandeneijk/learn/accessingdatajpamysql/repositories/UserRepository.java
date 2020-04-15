@@ -2,8 +2,9 @@
  * Created by Robert van den Eijk on 15-4-2020.
  */
 
-package net.vandeneijk.learn.accessingdatajpamysql;
+package net.vandeneijk.learn.accessingdatajpamysql.repositories;
 
+import net.vandeneijk.learn.accessingdatajpamysql.models.User;
 import org.springframework.data.repository.CrudRepository;
 
 // This will be AUTO IMPLEMENTED by Spring into a Bean called userRepository

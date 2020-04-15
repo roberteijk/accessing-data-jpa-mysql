@@ -2,7 +2,7 @@
  * Created by Robert van den Eijk on 15-4-2020.
  */
 
-package net.vandeneijk.learn.accessingdatajpamysql;
+package net.vandeneijk.learn.accessingdatajpamysql.models;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

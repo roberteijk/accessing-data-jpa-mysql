@@ -2,15 +2,13 @@
  * Created by Robert van den Eijk on 15-4-2020.
  */
 
-package net.vandeneijk.learn.accessingdatajpamysql;
+package net.vandeneijk.learn.accessingdatajpamysql.controllers;
 
+import net.vandeneijk.learn.accessingdatajpamysql.models.User;
+import net.vandeneijk.learn.accessingdatajpamysql.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 @Controller // This means that this class is a Controller
 @RequestMapping(path="/demo") // This means URL's start with /demo (after Application path)
